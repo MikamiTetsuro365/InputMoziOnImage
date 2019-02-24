@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#image {width: 300px; position:relative;}
+#textArea{width:300px; position: relative;}
+#previewZone{position: absolute;}
+
+.dtextArea {
+    cursor: move;
+}
+.rtextArea {
+    border: 1px dashed #000000;
+    position: relative;
+    min-height: 50px;
+}
+.ui-resizable-handle {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    position: absolute;
+}
+.ui-resizable-n {
+    top: -5px;
+    left:50%;
+    cursor: n-resize;
+}
+.ui-resizable-s {
+    bottom: -5px;
+    left: 50%;
+    cursor: s-resize;
+}
+.ui-resizable-w {
+    left:-5px;
+    top:calc(50% - 5px);
+    cursor: w-resize;
+}
+.ui-resizable-e {
+    right:-5px;
+    top:calc(50% - 5px);
+    cursor: e-resize;
+}
+#slider {
+    width:200px;
+    background:#0088ff; 
+    border:3px solid #000088; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
